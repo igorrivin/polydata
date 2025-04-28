@@ -3,7 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "polydata"  # Package name, used in imports and PyPI
+name = "polygon-reader"  # Package name, used in imports and PyPI
+packages = ["polygon_reader"]
 version = "0.1.0"
 description = "A simple package to read financial data from Polygon.io"
 readme = "README.md"
@@ -22,4 +23,4 @@ authors = [{name = "Igor Rivin", email = "igor@dimensionreducers.com"}]
 license = {text = "MIT"}
 
 [project.urls]
-Homepage = "https://github.com/igorrivnn/polygon"
+Homepage = "https://github.com/igorrivin/polygon-reader"
